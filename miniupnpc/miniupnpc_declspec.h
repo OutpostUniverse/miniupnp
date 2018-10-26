@@ -1,8 +1,6 @@
 #ifndef MINIUPNPC_DECLSPEC_H_INCLUDED
 #define MINIUPNPC_DECLSPEC_H_INCLUDED
 
-#define MINIUPNP_STATICLIB
-
 #if defined(_WIN32) && !defined(MINIUPNP_STATICLIB)
 	/* for windows dll */
 	#ifdef MINIUPNP_EXPORTS
